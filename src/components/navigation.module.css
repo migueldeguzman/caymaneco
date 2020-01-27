@@ -4,6 +4,9 @@
   overflow: hidden;
   background-color: #333;
   font-family: Arial;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 /* Links inside the navbar */
@@ -20,10 +23,13 @@
 .dropdown {
   float: left;
   overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 /* Dropdown button */
-.dropdown .dropbtn {
+.dropbtn {
   font-size: 16px;
   border: none;
   outline: none;
@@ -56,8 +62,9 @@
   color: black;
   padding: 12px 16px;
   text-decoration: none;
-  display: block;
-  text-align: left;
+  display: wrap;  
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 /* Add a grey background color to dropdown links on hover */
@@ -73,13 +80,13 @@
 
 .navigation {
   display: inline-flex;
-  justify-content: center;
+  justify-content: right;
   list-style: none;
   padding: 0;
   margin: 0;
   height: 10vh;
   max-height: 100px;
-  font-size: 1.25em;
+  font-size: 1em;
 }
 
 .navigationItem {
