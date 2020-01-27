@@ -3,7 +3,7 @@
   flex-wrap: flex;
   justify-content: center;
   align-items: center;
-  height: 150vh;
+  height: auto;
   max-height: 4000px;
   background: none;
   font-size: 1em;
